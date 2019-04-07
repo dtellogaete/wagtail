@@ -7,8 +7,6 @@ from wagtail.contrib.settings.models import BaseSetting, register_setting
 from wagtail.core.fields import RichTextField
 from wagtail.admin.edit_handlers import FieldPanel
 
-#hola
-
 
 class HomePage(Page):
     body = RichTextField(blank=True)
